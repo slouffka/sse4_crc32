@@ -29,7 +29,7 @@ using namespace node;
 #define SSE4_2_FLAG         0x100000
 
 // The CRC-32C polynomial in reversed bit order
-#define CRC32C_POLYNOMIAL   0x82f63b78
+#define CRC32C_POLYNOMIAL   0xEDB88320
 
 // Byte-boundary alignment issues
 #define ALIGN_SIZE          0x08UL              // Align at an 8-byte boundary
